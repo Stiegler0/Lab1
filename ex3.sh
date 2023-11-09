@@ -9,23 +9,19 @@ echo -n "Enter a, b, c, or d: "
 read answer
 echo
 case "$answer" in
-a)
-d	ate
-;;
-b)
-who
-;;
-c)
-pwd
-;;
-d)
-ls
-;;
-*)
-echo "There is no selection: $answer"
-;;
-B
-B
-B
-B
+	a) 
+		date
+		;;
+	b)
+		who
+		;;
+	c)
+		pwd
+		;;
+	d)
+		ls
+		;;
+	*)
+		echo "There is no selection: $answer"
+		;;
 esac
