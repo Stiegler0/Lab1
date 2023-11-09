@@ -1,8 +1,7 @@
 echo "Veuillez choisir une option: "
 echo "1.with extension .tar.gz"
 echo "2.with extension .tar.bz2"
-read $choix
-
+read choix
 case $choix in
 	1)
    		monzip="archive.tar.gz"
